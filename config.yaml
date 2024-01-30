@@ -1,0 +1,105 @@
+baseURL: "https://arkalim.org"
+languageCode: en-us
+title: Kaviya Kulothungan
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: certifications
+      name: Certifications
+      url: /certifications
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Kaviya Kulothungan"
+    subtitle: Hi 👋! I'm Kaviya Kulothungan, an ambitious DevOps Engineer. 
+     I am currently working as a DevOps Engineer at [**Clickatell**](https://www.clickatell.com/), a global leader in Chat Commerce in Toronto.
+     I bring a solid foundation in Software Engineering with professional experience.
+     I am captivated by the realm of Cloud Computing and DevOps practices, seeking to revolutionize how we deploy applications in the modern era. 
+     To enhance my expertise, I have also obtained AWS associate-level certification as a Solutions Architect and certified as Kubernetes Administrator and Application Developer, further bolstering my skills in the cloud computing domain.
+     My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers.
+     During my leisure hours, I try to share my knowledge by writing blogs at [**CodeBabel**](https://www.codebabel.com/) and focus on learning new tools and Technologies.
+    imageUrl: "home/kaviya-kulothungan.jpeg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:kaviyakulothungan@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/kaviya-kulothungan-10091171/"
+    - name: "github"
+      url: "https://github.com/kaviyakulothungan10"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/1HaA52t_tj__7R5yklOv7vwIUuq7w8Px3/view?usp=sharing"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
