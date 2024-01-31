@@ -10,6 +10,6 @@ cover:
 
 # Credentials
 
-### 🔗 [Certificate](https://drive.google.com/file/d/1rz9kf_f7VZwyYnJiKmV3V1n68MZGB8mF/view?usp=sharing)
+### 🔗 [Certificate](https://drive.google.com/file/d/1OR6lwN3K69LsXY7ru18zxEFZM7AKuL-G/view?usp=sharing)
 
 ### 🔗 [Credly Badge](https://www.credly.com/badges/d1295aa9-1a4d-43af-83cc-0e9e55d7c8fa/public_url)
